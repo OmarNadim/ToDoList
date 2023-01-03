@@ -1,0 +1,87 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right top, #4671b1, #1d84bc, #0095c1, #00a5be, #1fb4b8);
+}
+
+h1{
+    color: white;
+    font-size: 40px;
+}
+
+.instructions{
+    text-align: center;
+}
+
+.one{
+    color: #FFCD5D;
+}
+
+.two{
+    color: #51DF70;
+}
+
+.three{
+    color: #3D4345;
+}
+
+.entry{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+input{
+    width: 60%;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px
+}
+
+.entry>button{
+    background-color: #025F70;
+    border: none;
+    border-radius: 5px;
+    color: #04A1BF;
+    padding: 5px 10px;
+}
+
+.listItems{
+    width: 50%;
+}
+
+.item{
+    border: 2px solid #025f70;
+    background: #4EB9CD;
+    color: #ffffff;
+	text-transform: capitalize;
+    border-radius: 5px;
+    padding-left: 10px; 
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.item>button{
+    background-color: #025F70;
+    border: none;
+    border-radius: 5px;
+    color: #04A1BF;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    padding: 5px 10px;
+}
+
+.done {
+	background: #51DF70 !important;
+	color: #00891E;
+}
+
